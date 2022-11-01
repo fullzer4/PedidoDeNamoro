@@ -108,3 +108,21 @@ button{
     color: aliceblue;
     border: none;
 }
+
+@media screen and (max-width: 450px){
+    .container{
+        gap: 4rem;
+    }
+    h1{
+        font-size: 8vw;
+    }
+    p{
+        font-size: 6vw;
+    }
+    a{
+        font-size: 4vw;
+    }
+    button{
+        font-size: 4vw;
+    }
+}
