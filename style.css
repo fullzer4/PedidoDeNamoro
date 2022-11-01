@@ -15,6 +15,8 @@
     align-items: center;
     background: #e80202;
     overflow: hidden;
+    flex-direction: column;
+    gap: 1rem;
 }
 .heart{
     position: absolute;
@@ -66,4 +68,43 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: aliceblue;
+}
+.button{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+a{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 15px;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+}
+button{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 15px;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    border: none;
 }

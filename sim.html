@@ -9,12 +9,7 @@
 <body>
     <div class="container">
         <div class="text">
-            <h1 class="teamo">Eu te amo meu amor</h1>
-            <p class="namoro">Quer namorar comigo?</p>
-        </div>
-        <div class="button">
-            <a href="sim.html">Sim</a>
-            <button onclick="nao()">Não</button>
+            <h1 class="teamo">Ebaaaaaaaaaaaa!!!!!</h1>
         </div>
         <div class="heart"></div>
         <div class="heart"></div>
@@ -144,17 +139,6 @@
                 duration: 3000,
                 delay: anime.stagger(10),
                 complete: animateHearts,
-            })
-        }
-        function nao(){
-            anime({
-                targets: 'button',
-                translateX: function(){
-                    return anime.random(-700, 700)
-                },  
-                translateY: function(){
-                    return anime.random(-500, 500)
-                }
             })
         }
         animateHearts()
